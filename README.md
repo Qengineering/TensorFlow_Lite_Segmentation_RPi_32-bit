@@ -4,7 +4,7 @@ TensorFlow Lite running at 4.2 FPS on bare Raspberry Pi 4
 A fast C++ implementation of TensorFlow Lite Unet on a bare Raspberry Pi 4.
 Once overclocked to 2000 MHz, the app runs at 4.2 FPS!
 
-https://arxiv.org/abs/1611.10012 <br/>
+https://arxiv.org/abs/1606.00915 <br/>
 Training set: VOC2017 <br/>
 Size: 224x224 <br/>
 Frame rate V1 Lite : 4.2 FPS (RPi 4 @ 2000 MHz - 32 bits OS) <br/>
@@ -26,6 +26,6 @@ deeplabv3_257_mv_gpu.tflite <br/>
 TestUnet.cpb <br/>
 Unet.cpp<br/>
  <br/>
-Run TestTensorFlow_Lite.cpb with Code::Blocks. Remember, you also need a working OpenCV 4 on your Raspberry. <br/>
+Run TestUnet.cpb with Code::Blocks. Remember, you also need a working OpenCV 4 on your Raspberry. <br/>
 
 ![output image]( https://qengineering.eu/images/Unet_32.jpg )
