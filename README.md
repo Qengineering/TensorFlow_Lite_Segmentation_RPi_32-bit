@@ -6,9 +6,9 @@ Once overclocked to 2000 MHz, the app runs at 4.2 FPS!
 
 https://arxiv.org/abs/1606.00915 <br/>
 Training set: VOC2017 <br/>
-Size: 224x224 <br/>
+Size: 257x257 <br/>
 Frame rate V1 Lite : 4.2 FPS (RPi 4 @ 2000 MHz - 32 bits OS) <br/>
-Frame rate V1 Lite : 6.8 FPS (RPi 4 @ 1925 MHz - 64 bits OS) <br/>
+Frame rate V1 Lite : 7.8 FPS (RPi 4 @ 1875 MHz - 64 bits OS) <br/>
 <br/>
 Special made for a bare Raspberry Pi see: https://qengineering.eu/install-tensorflow-2-lite-on-raspberry-pi-4.html <br/>
 <br/>
