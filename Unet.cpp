@@ -134,17 +134,17 @@ int main(int argc,char ** argv)
     cout << "width    : "<< model_width << endl;
     cout << "channels : "<< model_channels << endl;
 
-//    VideoCapture cap("James.mp4");
-//    if (!cap.isOpened()) {
-//        cerr << "ERROR: Unable to open the camera" << endl;
-//        return 0;
-//    }
+    VideoCapture cap("Highway.mp4");
+    if (!cap.isOpened()) {
+        cerr << "ERROR: Unable to open the camera" << endl;
+        return 0;
+    }
 
     cout << "Start grabbing, press ESC on Live window to terminate" << endl;
 
     while(1){
-        frame=imread("cat.jpg");  //need to refresh frame before dnn class detection
-//        cap >> frame;
+//        frame=imread("cat.jpg");  //need to refresh frame before dnn class detection
+        cap >> frame;
         if (frame.empty()) {
             cerr << "End of movie" << endl;
             break;
@@ -172,7 +172,7 @@ int main(int argc,char ** argv)
     cout << "Closing the camera" << endl;
 
     // When everything done, release the video capture and write object
-//    cap.release();
+    cap.release();
 
     destroyAllWindows();
     cout << "Bye!" << endl;
