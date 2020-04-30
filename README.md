@@ -27,5 +27,6 @@ TestUnet.cpb <br/>
 Unet.cpp<br/>
  <br/>
 Run TestUnet.cpb with Code::Blocks. Remember, you also need a working OpenCV 4 on your Raspberry. <br/>
+Preferably use our installation: https://qengineering.eu/install-opencv-4.3-on-raspberry-pi-4.html <br/>
 
 ![output image]( https://qengineering.eu/images/Unet_32.jpg )
